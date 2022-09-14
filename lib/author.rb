@@ -1,5 +1,4 @@
 class Author
-
     attr_reader :author_info, :books
 
     def initialize(author_hash)
@@ -16,7 +15,4 @@ class Author
        @books.push(new_book)
        new_book
     end
-
-
-
 end

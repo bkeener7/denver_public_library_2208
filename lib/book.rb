@@ -1,5 +1,4 @@
 class Book
-
     attr_reader :book_info
 
     def initialize(book_hash)
@@ -17,5 +16,4 @@ class Book
     def publication_year
         book_info[:publication_date][-4..-1]
     end
-
 end
